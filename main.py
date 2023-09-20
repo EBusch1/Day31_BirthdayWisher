@@ -1,4 +1,3 @@
-##################### Extra Hard Starting Project ######################
 import datetime as dt
 import random
 import smtplib
@@ -28,4 +27,4 @@ if month_day in birthday_dict:
             to_addrs=person_bday["email"],
             msg=f"Subject: Happy Birthday, {person_name}!\n\n{letter}")
 
-# 4. Send the letter generated in step 3 to that person's email address.
+
